@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/weixinfragment">
+
+    <fragment
+        android:id="@+id/weixinfragment"
+        android:name="edu.git.weixin.fragment.HomePageFragment"
+        android:label="home_page_fragment"
+        tools:layout="@layout/home_page_fragment" />
+    <fragment
+        android:id="@+id/addressbookfragment"
+        android:name="edu.git.weixin.fragment.AddressBookFragment"
+        android:label="address_book_fragment"
+        tools:layout="@layout/address_book_fragment" />
+    <fragment
+        android:id="@+id/discoverfragment"
+        android:name="edu.git.weixin.fragment.DiscoverFragment"
+        android:label="discover_fragment"
+        tools:layout="@layout/discover_fragment" />
+    <fragment
+        android:id="@+id/myselfFragment"
+        android:name="edu.git.weixin.fragment.MyselfFragment"
+        android:label="myself_fragment"
+        tools:layout="@layout/myself_fragment" />
+</navigation>
