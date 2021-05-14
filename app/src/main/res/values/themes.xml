@@ -7,4 +7,21 @@
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="btnBg">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="btnBg_my_page">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="background">@color/white_F</item>
+    </style>
+    <style name="btnBg_setting_page">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="background">@color/white_F</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
 </resources>

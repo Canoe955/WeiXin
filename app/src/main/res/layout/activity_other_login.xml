@@ -16,8 +16,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/btnBg"
         android:text="@string/other_login_page"
         android:textColor="#000000"
         android:textSize="30sp"
@@ -51,8 +50,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/btnBg"
         android:text="@string/other_login_username"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -65,8 +63,7 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/btnBg"
         android:text="@string/other_login_password"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -134,8 +131,7 @@
 
     <TextView
         android:id="@+id/tv_other_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/btnBg"
         android:text="@string/other_login"
         android:textColor="#5A6B8C"
         android:textSize="18sp"
@@ -169,8 +165,7 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/btnBg"
         android:text="@string/WeiXin_safety_center"
         android:textColor="#5A6B8C"
         android:textSize="16sp"

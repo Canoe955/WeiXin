@@ -12,13 +12,11 @@ import android.view.ViewGroup;
 import edu.git.weixin.R;
 
 public class HomePageFragment extends Fragment {
-
     private HomePageViewModel mViewModel;
 
     public static HomePageFragment newInstance() {
         return new HomePageFragment();
     }
-
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
@@ -29,7 +27,6 @@ public class HomePageFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(HomePageViewModel.class);
-        // TODO: Use the ViewModel
     }
 
 }

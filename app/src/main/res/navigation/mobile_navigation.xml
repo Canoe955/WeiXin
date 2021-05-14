@@ -21,7 +21,7 @@
         android:label="discover_fragment"
         tools:layout="@layout/discover_fragment" />
     <fragment
-        android:id="@+id/myselfFragment"
+        android:id="@+id/myselfragement"
         android:name="edu.git.weixin.fragment.MyselfFragment"
         android:label="myself_fragment"
         tools:layout="@layout/myself_fragment" />

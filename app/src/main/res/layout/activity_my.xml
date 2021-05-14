@@ -128,9 +128,7 @@
 
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:background="#FFFFFF"
+                style="@style/btnBg_my_page"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -207,9 +205,7 @@
 
             <TextView
                 android:id="@+id/textView20"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:background="#FFFFFF"
+                style="@style/btnBg_my_page"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -241,10 +237,8 @@
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                style="@style/btnBg_my_page"
                 android:layout_marginTop="3dp"
-                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView20" />
@@ -275,10 +269,8 @@
 
             <TextView
                 android:id="@+id/textView24"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                style="@style/btnBg_my_page"
                 android:layout_marginTop="3dp"
-                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -310,10 +302,8 @@
 
             <TextView
                 android:id="@+id/textView26"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                style="@style/btnBg_my_page"
                 android:layout_marginTop="3dp"
-                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView24" />
@@ -343,10 +333,8 @@
 
             <TextView
                 android:id="@+id/tv_setting"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                style="@style/btnBg_my_page"
                 android:layout_marginTop="15dp"
-                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView26" />
@@ -412,8 +400,7 @@
             app:layout_constraintGuide_percent="0.72" />
 
         <!--下面为底部导航-->
-        <include
-            layout="@layout/bottom_nav" />
+        <include layout="@layout/bottom_nav" />
 
     </android.support.constraint.ConstraintLayout>
 </layout>

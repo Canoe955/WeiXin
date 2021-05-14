@@ -9,23 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WeiXin">
-        <activity android:name=".activity.home.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".activity.home.MainActivity" >
+
         </activity>
         <activity android:name=".activity.contacts.ContactsActivity" />
         <activity android:name=".activity.discover.DiscoverActivity" />
         <activity android:name=".activity.setting.SettingActivity" />
-        <activity android:name=".activity.setting.MyActivity" />
+        <activity android:name=".activity.setting.MyActivity" />想·
         <activity android:name=".activity.home.HomePageActivity" />
         <activity android:name=".activity.login.OtherLoginActivity" />
         <activity android:name=".activity.login.RegisterActivity" />
         <activity android:name=".activity.login.LoginActivity" />
         <activity android:name=".activity.login.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

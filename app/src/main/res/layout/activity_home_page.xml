@@ -81,11 +81,10 @@
             app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
         <!--下面为底部导航-->
-
-        <include
-            layout="@layout/bottom_nav" />
-
+        <include layout="@layout/bottom_nav" />
         <!--RecycleView-->
+
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycle_view"
             android:layout_width="0dp"

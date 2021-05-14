@@ -140,11 +140,8 @@
 
         <TextView
             android:id="@+id/textView31"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            style="@style/btnBg_setting_page"
             android:textColor="#000000"
-            android:background="#FFFFFF"
-            android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:text="@string/username_safety"
             android:textSize="18sp"
@@ -168,10 +165,7 @@
 
         <TextView
             android:id="@+id/textView32"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:background="#FFFFFF"
-            android:gravity="center_vertical"
+            style="@style/btnBg_setting_page"
             android:paddingLeft="10dp"
             android:text="@string/teenager"
             android:textColor="#000000"
@@ -185,10 +179,8 @@
 
         <TextView
             android:id="@+id/textView33"
-            android:layout_width="0dp"
-            android:background="#FFFFFF"
+            style="@style/btnBg_setting_page"
             android:layout_height="53dp"
-            android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:paddingLeft="10dp"
             android:text="@string/new_message"
@@ -201,10 +193,8 @@
 
         <TextView
             android:id="@+id/textView34"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            style="@style/btnBg_setting_page"
             android:layout_marginTop="2dp"
-            android:background="#FFFFFF"
             android:text="@string/privacy"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
@@ -217,11 +207,8 @@
 
         <TextView
             android:id="@+id/textView35"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:background="#FFFFFF"
+            style="@style/btnBg_setting_page"
             android:textColor="#000000"
-            android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:textSize="18sp"
             android:text="@string/general"
@@ -232,11 +219,8 @@
 
         <TextView
             android:id="@+id/textView36"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            style="@style/btnBg_setting_page"
             android:layout_marginTop="15dp"
-            android:background="#FFFFFF"
-            android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:text="@string/helpwithfeedback"
             android:textColor="#000000"
@@ -250,11 +234,8 @@
 
         <TextView
             android:id="@+id/textView37"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            style="@style/btnBg_setting_page"
             android:layout_marginTop="5dp"
-            android:background="#FFFFFF"
-            android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:text="@string/about_weixin"
             android:textColor="#000000"
@@ -268,11 +249,8 @@
 
         <TextView
             android:id="@+id/textView38"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            style="@style/btnBg_setting_page"
             android:layout_marginTop="5dp"
-            android:background="#FFFFFF"
-            android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:text="@string/plug_in"
             android:textColor="#000000"
@@ -285,11 +263,9 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/textView39"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:id="@+id/tv_exchange_username"
+            style="@style/btnBg_setting_page"
             android:layout_marginTop="25dp"
-            android:background="#FFFFFF"
             android:gravity="center"
             android:paddingLeft="10dp"
             android:text="@string/switchover_username"
@@ -304,12 +280,10 @@
 
         <TextView
             android:id="@+id/tv_exit_login"
-            android:layout_width="0dp"
-            android:background="#FFFFFF"
+            style="@style/btnBg_setting_page"
             android:layout_marginTop="15dp"
             android:gravity="center"
             android:paddingLeft="10dp"
-            android:layout_height="50dp"
             android:text="@string/exit"
             android:textColor="#000000"
             android:textSize="18sp"

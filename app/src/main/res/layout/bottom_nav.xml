@@ -33,7 +33,7 @@
         app:layout_constraintGuide_percent="0.75" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/image_homepage"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="#FFFFFF"
@@ -71,7 +71,7 @@
         app:srcCompat="@drawable/faxian" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/image_myself"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="#FFFFFF"
@@ -84,7 +84,7 @@
         app:srcCompat="@drawable/me" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/tv_homepage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/weixin"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toStartOf="@+id/chuizhi1"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/image_homepage"
         app:layout_constraintVertical_bias="0.571" />
 
     <TextView
@@ -120,7 +120,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/tv_myself"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/own"
@@ -129,7 +129,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="@+id/ChuiZhi3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/image_myself"
         app:layout_constraintVertical_bias="0.571" />
 
 </android.support.constraint.ConstraintLayout>
