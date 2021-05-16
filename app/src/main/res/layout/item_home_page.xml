@@ -14,7 +14,7 @@
         android:id="@+id/iv_image"
         android:layout_width="80dp"
         android:layout_height="80dp"
-
+        android:background="@drawable/shape_recycleview_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.084"

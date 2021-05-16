@@ -78,8 +78,8 @@
 
 
         <!--RecycleView-->
-        <!-- <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycle_view"
+         <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_fragment_view"
             android:layout_width="0dp"
             android:layout_height="480dp"
             android:overScrollMode="never"
@@ -89,7 +89,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline14"
             tools:listitem="@layout/item_home_page">
-        </android.support.v7.widget.RecyclerView>-->
+        </android.support.v7.widget.RecyclerView>
     </android.support.constraint.ConstraintLayout>
 
 

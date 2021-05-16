@@ -49,4 +49,17 @@
     <string name="plug_in">插件</string>
     <string name="switchover_username">切换账号</string>
     <string name="exit">退出登录</string>
+    <string name="detail_name">DayDayUp</string>
+    <string name="chat_time">下午9:29</string>
+    <string name="chat_name_first">王儿子</string>
+    <string name="chat_message_first">436水费交了没得</string>
+    <string name="chat_username_second">孙杰</string>
+    <string name="chat_username_3">淮亚冲</string>
+    <string name="chat_message_3">436永远的神</string>
+    <string name="chat_username_4">曹义华</string>
+    <string name="chat_message_4">428曹三狗</string>
+    <string name="chat_username_5">胡庆涛</string>
+    <string name="chat_message_5">428渣渣</string>
+    <string name="chat_username_6">宋仕骥</string>
+    <string name="chat_message_6">来了，老弟</string>
 </resources>

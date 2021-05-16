@@ -9,14 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WeiXin">
-
-        <activity android:name=".activity.home.MainActivity" >
-
-        </activity>
+        <activity android:name=".activity.contacts.DetailActivity"></activity>
+        <activity android:name=".activity.home.MainActivity"></activity>
         <activity android:name=".activity.contacts.ContactsActivity" />
         <activity android:name=".activity.discover.DiscoverActivity" />
         <activity android:name=".activity.setting.SettingActivity" />
-        <activity android:name=".activity.setting.MyActivity" />想·
+        <activity android:name=".activity.setting.MyActivity" />
         <activity android:name=".activity.home.HomePageActivity" />
         <activity android:name=".activity.login.OtherLoginActivity" />
         <activity android:name=".activity.login.RegisterActivity" />

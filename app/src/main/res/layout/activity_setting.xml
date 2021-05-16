@@ -30,7 +30,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline30"
             app:layout_constraintVertical_bias="0.0">
 
         </android.support.constraint.ConstraintLayout>
@@ -141,6 +140,7 @@
         <TextView
             android:id="@+id/textView31"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:textColor="#000000"
             android:paddingLeft="10dp"
             android:text="@string/username_safety"
@@ -166,6 +166,7 @@
         <TextView
             android:id="@+id/textView32"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:paddingLeft="10dp"
             android:text="@string/teenager"
             android:textColor="#000000"
@@ -180,6 +181,7 @@
         <TextView
             android:id="@+id/textView33"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_height="53dp"
             android:layout_marginTop="2dp"
             android:paddingLeft="10dp"
@@ -194,6 +196,7 @@
         <TextView
             android:id="@+id/textView34"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_marginTop="2dp"
             android:text="@string/privacy"
             android:gravity="center_vertical"
@@ -208,6 +211,7 @@
         <TextView
             android:id="@+id/textView35"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:textColor="#000000"
             android:paddingLeft="10dp"
             android:textSize="18sp"
@@ -220,6 +224,7 @@
         <TextView
             android:id="@+id/textView36"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_marginTop="15dp"
             android:paddingLeft="10dp"
             android:text="@string/helpwithfeedback"
@@ -235,6 +240,7 @@
         <TextView
             android:id="@+id/textView37"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_marginTop="5dp"
             android:paddingLeft="10dp"
             android:text="@string/about_weixin"
@@ -250,6 +256,7 @@
         <TextView
             android:id="@+id/textView38"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_marginTop="5dp"
             android:paddingLeft="10dp"
             android:text="@string/plug_in"
@@ -265,6 +272,7 @@
         <TextView
             android:id="@+id/tv_exchange_username"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_marginTop="25dp"
             android:gravity="center"
             android:paddingLeft="10dp"
@@ -281,6 +289,7 @@
         <TextView
             android:id="@+id/tv_exit_login"
             style="@style/btnBg_setting_page"
+            android:background="#FFFFFF"
             android:layout_marginTop="15dp"
             android:gravity="center"
             android:paddingLeft="10dp"

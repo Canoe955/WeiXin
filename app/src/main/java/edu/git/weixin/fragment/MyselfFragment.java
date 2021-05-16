@@ -1,6 +1,7 @@
 package edu.git.weixin.fragment;
 
 import android.arch.lifecycle.ViewModelProvider;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -8,13 +9,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import edu.git.weixin.R;
+import edu.git.weixin.activity.setting.SettingActivity;
 
 public class MyselfFragment extends Fragment {
 
     private MyselfViewModel mViewModel;
-
+    private TextView textView;
     public static MyselfFragment newInstance() {
         return new MyselfFragment();
     }
@@ -29,7 +32,18 @@ public class MyselfFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(MyselfViewModel.class);
-        // TODO: Use the ViewModel
+
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        textView = view.findViewById(R.id.tv_setting);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), SettingActivity.class));
+            }
+        });
+    }
 }

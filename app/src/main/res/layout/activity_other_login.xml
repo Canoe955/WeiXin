@@ -74,7 +74,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/tv_login_phone_number"
         android:layout_width="223dp"
         android:layout_height="53dp"
         android:ems="10"
@@ -142,7 +142,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/tv_other_login_phone_number"
         android:layout_width="223dp"
         android:layout_height="49dp"
         android:ems="10"
