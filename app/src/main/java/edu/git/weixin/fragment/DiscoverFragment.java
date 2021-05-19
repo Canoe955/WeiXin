@@ -8,6 +8,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import edu.git.weixin.R;
 
@@ -29,7 +33,22 @@ public class DiscoverFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(DiscoverViewModel.class);
-        // TODO: Use the ViewModel
+
+        TextView textView = getView().findViewById(R.id.discoverText);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                NavController navController = Navigation.findNavController(v);
+                navController.navigate(R.id.action_discoverfragment_to_friendFragment);
+            }
+        });
+      /*  textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent());
+            }
+        });*/
+
     }
 
 }

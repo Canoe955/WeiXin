@@ -17,7 +17,7 @@ import edu.git.weixin.activity.setting.SettingActivity;
 public class MyselfFragment extends Fragment {
 
     private MyselfViewModel mViewModel;
-    private TextView textView;
+    private TextView textView,textView1;
     public static MyselfFragment newInstance() {
         return new MyselfFragment();
     }
@@ -39,11 +39,15 @@ public class MyselfFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         textView = view.findViewById(R.id.tv_setting);
+        /*textView1 = getView().findViewById(R.id.textView15);
+        String phone = getActivity().getIntent().getStringExtra("phone");
+        textView1.setText(phone);*/
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), SettingActivity.class));
             }
         });
+
     }
 }

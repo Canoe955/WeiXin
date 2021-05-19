@@ -17,7 +17,7 @@
     <string name="weixin_app_permissionwithagreement">微信软件许可及服务协议</string>
     <string name="phone_login">手机号登录</string>
     <string name="other_login">用微信号/QQ号/邮箱登录</string>
-    <string name="phone_login_next">下一步</string>
+    <string name="phone_login_next">登录</string>
     <string name="other_login_page">微信号/QQ号/邮箱登录</string>
     <string name="other_login_username">账号</string>
     <string name="other_login_username_hint">请填写微信号/QQ号/邮箱</string>
@@ -62,4 +62,6 @@
     <string name="chat_message_5">428渣渣</string>
     <string name="chat_username_6">宋仕骥</string>
     <string name="chat_message_6">来了，老弟</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

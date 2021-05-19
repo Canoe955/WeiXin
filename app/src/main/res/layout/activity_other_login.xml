@@ -74,7 +74,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <EditText
-        android:id="@+id/tv_login_phone_number"
+        android:id="@+id/tv_login_phone_password"
         android:layout_width="223dp"
         android:layout_height="53dp"
         android:ems="10"
@@ -148,7 +148,6 @@
         android:ems="10"
         android:hint="@string/other_login_username_hint"
         android:inputType="textPersonName"
-        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

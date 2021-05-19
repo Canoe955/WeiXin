@@ -2,7 +2,7 @@ package edu.git.weixin.entity;
 
 public class HomePage {
     private String name ;
-    private int image;
+    private Integer image;
     private String time ;
     private String message;
 
@@ -17,11 +17,11 @@ public class HomePage {
         this.name = name;
     }
 
-    public int getImage() {
+    public Integer getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(Integer image) {
         this.image = image;
     }
 
